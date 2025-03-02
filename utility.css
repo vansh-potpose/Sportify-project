@@ -1,0 +1,70 @@
+.flex{
+    display: flex;
+}
+.align-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.bg-gray{
+    background-color: #121212;
+}
+.rounded{
+    border-radius: 7px;
+}
+.img-height{
+    height: 20px;
+}
+
+.m-5{
+    margin: 5px;
+}
+.p-5{
+    padding: 5px;
+}
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent; /* Make background invisible */
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #4a4a4a;
+    border-radius: 10px;
+    border: 3px solid transparent; /* Make border transparent */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+
+::-webkit-scrollbar-button {
+    display: none; /* Remove side arrows */
+}
+
+/* Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #4a4a4a transparent; /* Make background invisible */
+}
+
+html {
+    scrollbar-color: #4a4a4a transparent; /* Make background invisible */
+}
+.just-icon{
+    fill: currentColor;
+    border-radius: 5px;
+    padding: 2px;
+    width: var(--encore-graphic-size-decorative-base, 35px);
+    height: var(--encore-graphic-size-decorative-base, 35px);
+}
+.just-img{
+    object-fit: cover;
+    border-radius: 5px;
+    width: var(--encore-graphic-size-decorative-base, 40px);
+    height: var(--encore-graphic-size-decorative-base, 40px);
+}

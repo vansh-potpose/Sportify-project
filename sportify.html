@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="sportify.css">
+</head>
+
+<body>
+    <div class="left-right-container">
+        <div class="left">
+            <div class="close">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32" color="#ffffff" fill="none">
+                    <path d="M18 6L12 12M12 12L6 18M12 12L18 18M12 12L6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </div>
+            <div class="home bg-gray">
+                <ul>
+                    <li><img src="spotify assests\logo.svg" alt="logo"></li>
+                    <li class="change-svg-color"><img src="spotify assests\home.svg" class="img-height" alt="home">Home</li>
+                    <li class="change-svg-color"><img src="spotify assests\search.svg" class="img-height" alt="search">Search</li>
+                </ul>
+            </div>
+            <div class="library bg-gray">
+                <div class="libraryBox">
+                    <div class="your-library">
+                        <button class="library-btn"><svg xmlns="http://www.w3.org/2000/svg" data-encore-id="icon"
+                                role="img" aria-hidden="true" viewBox="0 0 24 24" class="fill">
+                                <path
+                                    d="M3 22a1 1 0 0 1-1-1V3a1 1 0 0 1 2 0v18a1 1 0 0 1-1 1zM15.5 2.134A1 1 0 0 0 14 3v18a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V6.464a1 1 0 0 0-.5-.866l-6-3.464zM9 2a1 1 0 0 0-1 1v18a1 1 0 1 0 2 0V3a1 1 0 0 0-1-1z">
+                                </path>
+                            </svg><div class="current-library">Your Library</div></button>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="fill-btn fill" viewBox="0 0 24 24" width="40" height="40"
+                         >
+                        <path d="M12 4V20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M4 12H20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </div>
+                
+                <div class="library-playlist">
+                </div>
+                <div class="libraryFooter">
+                    <div><a href="https://www.spotify.com/in-en/legal/">Legal</a></div>
+                    <div><a href="https://www.spotify.com/in-en/safetyandprivacy/">Safety & Privacy Center</a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/">Privacy Policy</a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/cookies-policy/">Cookies</a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">About Ads</a></div>
+                    <div><a href="https://www.spotify.com/in-en/accessibility/">Accessibility</a></div>
+                </div>
+
+            </div>
+        </div>
+        <div class="right">
+            <div class="header">
+                <div class="icon">
+                    <div class="hamburger">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="40" height="40" color="#ffffff" fill="none">
+                            <path d="M4 5L20 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M4 12L20 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M4 19L20 19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" class="svg-color"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M11.03.47a.75.75 0 0 1 0 1.06L4.56 8l6.47 6.47a.75.75 0 1 1-1.06 1.06L2.44 8 9.97.47a.75.75 0 0 1 1.06 0z">
+                            </path>
+                        </svg>
+                    </div>
+                    <div>
+                        <svg data-encore-id="icon" role="img" aria-hidden="true" class="svg-color" viewBox="0 0 16 16">
+                            <path
+                                d="M4.97.47a.75.75 0 0 0 0 1.06L11.44 8l-6.47 6.47a.75.75 0 1 0 1.06 1.06L13.56 8 6.03.47a.75.75 0 0 0-1.06 0z">
+                            </path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="button">
+                    <button class="signup">Sign up</button>
+                    <button class="login">Log in</button>
+                </div>
+            </div>
+            <div class="right-main">
+                <div class="light-gray-box"></div>
+                <div class="playlist-container">
+                    <h2>Sportify playlist</h2>
+                    <div class="playlist">
+                        
+                    </div>
+                </div>
+                <div class="artist-container">
+                    <h2>Popular artists</h2>
+                    <div class="popular-artists-container">
+                        
+                        <div class="artist-card">
+                            <button class="play"><img src="spotify assests/library.svg" alt=""></button>
+                            <img src="spotify assests/art1.jfif" alt="art1">
+                            <p class="naam">Pritam</p>
+                            <p class="kam">Artist</p>
+                        </div>
+                        <div class="artist-card">
+                            <button class="play"><img src="spotify assests/library.svg" alt=""></button>
+                            <img src="spotify assests/art1.jfif" alt="art1">
+                            <p class="naam">Pritam</p>
+                            <p class="kam">Artist</p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="playbar">
+                <div class="seekbar">
+                    <div class="completionbar">
+                    </div>
+                        <div class="circle"></div>
+                </div>
+                
+                <div class="belowbar">
+                    <div class="absolutebar">
+                        <div class="songinfo"></div>
+                        <div class="timevol">
+                            <div class="volume">
+                                <input type="range" class="volrange"  >
+                                <img src="spotify assests/volume.svg" alt="volume button">
+                            </div>
+                            <div class="songtime"></div>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="songbutton">
+                        <button id="previous"><svg xmlns="http://www.w3.org/2000/svg" class="playbar-button" role="img" aria-hidden="true" viewBox="0 0 16 16"><path d="M3.3 1a.7.7 0 0 1 .7.7v5.15l9.95-5.744a.7.7 0 0 1 1.05.606v12.575a.7.7 0 0 1-1.05.607L4 9.149V14.3a.7.7 0 0 1-.7.7H1.7a.7.7 0 0 1-.7-.7V1.7a.7.7 0 0 1 .7-.7h1.6z"></path></svg></button>
+                        <button id="play"><svg xmlns="http://www.w3.org/2000/svg" class="playbar-button" role="img" aria-hidden="true" viewBox="0 0 16 16" ><path d="M3 1.713a.7.7 0 0 1 1.05-.607l10.89 6.288a.7.7 0 0 1 0 1.212L4.05 14.894A.7.7 0 0 1 3 14.288V1.713z"></path></svg></button>
+                        <button id="next"><svg xmlns="http://www.w3.org/2000/svg" class="playbar-button" role="img" aria-hidden="true" viewBox="0 0 16 16" ><path d="M12.7 1a.7.7 0 0 0-.7.7v5.15L2.05 1.107A.7.7 0 0 0 1 1.712v12.575a.7.7 0 0 0 1.05.607L12 9.149V14.3a.7.7 0 0 0 .7.7h1.6a.7.7 0 0 0 .7-.7V1.7a.7.7 0 0 0-.7-.7h-1.6z"></path></svg></button>
+                    </div>
+                
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsmediatags/3.9.5/jsmediatags.min.js"></script>
+    <script src="sportigy.js"></script>
+</body>
+
+</html>
+<!-- 
+0) apply cursor pointer
+-->
